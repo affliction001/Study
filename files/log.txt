@@ -1,0 +1,6 @@
+2019-07-12 12:12:37
+
+>>> Example 1 is finished successfully.
+>>> Example 2 is finished successfully.
+>>> Example 3 is finished successfully.
+>>> Example 4 is finished successfully.
