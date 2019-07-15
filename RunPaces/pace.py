@@ -1,12 +1,13 @@
 import math
 
-distance = float(input("Distanse: "))
-start_pace = 4  # 3:00 min/km
+start_pace = 3  # 3:00 min/km
 current_pace = start_pace
 end_pace = 5  # 5:00 min/km
 step = 0
 step_counter = 5  # 10 seconds
+distance = float(input("Distanse (km): "))
 
+print("\n\t****", distance, "km ****")
 
 def get_pace(current_step):
     return round(current_step / 60, 2)
@@ -29,4 +30,6 @@ while current_pace < end_pace:
 
     step += step_counter
 
-    print(pace, " min/km = ", math.floor(time / 60), ":", fraction, sep="")
+    print("\t", pace, " min/km = ", math.floor(time / 60), ":", fraction, sep="")
+
+print()
