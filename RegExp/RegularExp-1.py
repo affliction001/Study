@@ -14,8 +14,8 @@ filereader.close()
 # [0-9] - any digit 0-9
 # [A-Z] - any uppercase alphabet symbol
 # [a-z] - any lowercase alphabet symbol
-# + - one and more
-# * - zero and more
+# + - one or more
+# * - zero or more
 
 
 def find_template(template):
