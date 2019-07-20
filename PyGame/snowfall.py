@@ -5,23 +5,23 @@ import sys
 
 MAX_X = 1920
 MAX_Y = 1080
-BIG_SNOWFLAKES = 100
-MEDIUM_SNOWFLAKES = 200
-SMALL_SNOWFLAKES = 300
-BIG_SIZE = 32
-MEDIUM_SIZE = 16
+BIG_SNOWFLAKES = 80
+MEDIUM_SNOWFLAKES = 300
+SMALL_SNOWFLAKES = 800
+BIG_SIZE = 25
+MEDIUM_SIZE = 15
 SMALL_SIZE = 8
 
 
 def set_speed(size):
     speed = 0
     
-    if size == 8:
-        speed = 1
-    elif size == 16:
+    if size == SMALL_SIZE:
         speed = 2
-    elif size == 32:
+    elif size == MEDIUM_SIZE:
         speed = 3
+    elif size == BIG_SIZE:
+        speed = 4
 
     return speed
 
